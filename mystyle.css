@@ -1,0 +1,57 @@
+#navbar{
+  height:100px;
+  background: linear-gradient(to left,#009B77 0%,#45B8AC 100%);
+  border: 2px solid gray;
+  /* margin: auto; */
+}
+a{
+  color: black;
+  font-family: sans-serif;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: auto;
+  position: relative;
+  top:40px;
+  left: 350px; */
+  overflow:scroll;
+}
+
+a.hover{
+  text-shadow: (2px,2px,black);
+}
+
+/* #login{
+  position: relative;
+  left:700px;
+} */
+
+.btn{
+  border-radius: 30%;
+  padding: 10px;
+  opacity: 0.7;
+  color:red;
+  margin-top: 30px;
+  margin-right: 10px;
+  background:white;
+  cursor: pointer;
+}
+#content{
+  height: 600px;
+  background: url("processor.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: scroll;
+
+}
+#contentCover{
+  width: 200px;
+  background-color: black;
+  opacity: 1;
+}
+
+#footer{
+  height:200px;
+  background-color: gray;
+  margin-top: 5px;
+}
